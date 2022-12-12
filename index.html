@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAMPO MINATO</title>
+
+    <!-- autore -->
+    <meta name="Author" content="Simone_F">
+
+    <!-- collegamento Html ==> Css -->
+    <link rel="stylesheet" href="../campo_minato/style.css">
+
+    <!-- collegamento google font (Bangers) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <!-- collegamento google font (Monoton) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+
+    <!-- collegamento Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="total_body">
+            <div id="title">
+                <div class="box_row">
+                    <div id="row">
+                        <div class="col">
+                            <img src="./img/unnamed.jpg" alt="">
+                            <div class="ring">
+                                <div class="ball-holder">
+                                    <div class="ball"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <h1>Campo Minato</h1>
+                    </div>
+                </div>
+            </div>
+            <section class="container">
+
+                <!-- contiene il selettore -->
+                <div class="content">
+                    <!-- scelta del livello di dificoltà-->
+                    <label id="liv_diff" for="choice">Scegli il Livello di Difficoltà</label>
+                    <span id="contents">
+                        <select id="choices">
+                            <option value="1">LIVELLO 1</option>
+                            <option value="2">LIVELLO 2</option>
+                            <option value="3">LIVELLO 3</option>
+                        </select>
+                        <button id="start">START</button>
+                    </span>
+                </div>
+            </section>
+
+            <section>
+                <div id="grid"></div>
+            </section>
+        </div>
+    </header>
+    <footer>
+        <span>
+            <h4 id="name-footer"> Campo Minato </h4> powered by Simone F. &#9824 (Boolean) !!!
+        </span>
+    </footer>
+    <!-- collegamento js script -->
+    <script src="../campo_minato/campoMinato.js"></script>
+</body>
+
+</html>
