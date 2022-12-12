@@ -199,7 +199,7 @@ header{
 #grid h2{
     
     /* margin: -13em 0em 0em 3.5em; */
-    text-shadow: 0.5px -2.9px 0.1px #fff;
+    text-shadow: 0.5px -2.9px 0.1px rgb(233, 17, 17);
     letter-spacing: 2px;
 }
 
@@ -213,7 +213,7 @@ header{
     bottom: 9.1em;
     left: 3px;
     z-index: 1;
-    color: red;
+    color: rgb(249, 245, 6);
 }
 
 
